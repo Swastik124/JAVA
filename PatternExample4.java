@@ -10,4 +10,4 @@ public class PatternExample4 {
             System.out.println();
         }
     }
-}
+ }
