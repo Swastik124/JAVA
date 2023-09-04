@@ -9,6 +9,7 @@ public class LoopExample {
         {
             System.out.println("For LOOP");
         }
+        
         int j=0;
         while(j<5)
         {
