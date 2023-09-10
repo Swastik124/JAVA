@@ -1,50 +1,19 @@
-
 import java.util.*;
 
-class Pallindrome {
+class PallindromeWithRev {
     public static void main(String[] args)
     {
-        // String rev="",str="";
-        // int i,j;
-        // Scanner p = new Scanner(System.in);
-        // str = p.nextLine();
-        // i=str.length();
-        // for(j=i-1;j>=0;j--)
-        // {
-        //     rev=rev+str.charAt(j);
-        // }
-        // System.out.print("The reverse is"+" "+rev);
-
-
-
-        //Without a rev checking pallindrome
-        String str;
-        try (Scanner p = new Scanner(System.in)) {
-            str = p.nextLine();
-        }
-        int s,j,i=0,count=0;
-        s=str.length();
-        for(i=0,j=s-1;i<s;i++,j--)
+        String rev="",str="";
+        int i,j;
+        Scanner p = new Scanner(System.in);
+        str = p.nextLine();
+        i=str.length();
+        for(j=i-1;j>=0;j--)
         {
-           if(i<j)
-           {
-            if(str.charAt(i) == str.charAt(j))
-            {
-                count++;
-            }
-           }
-           else
-           {
-            break;
-           }
+            rev=rev+str.charAt(j);
         }
-        if(count==s/2)
-        {
-            System.out.println("Given String is a Pallindrome");
-        }
-        else{
-            System.out.println("Given String is not a Pallindrome");
-        }
+        System.out.print("The reverse is"+" "+rev);
     }
 }
+
 
