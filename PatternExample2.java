@@ -9,7 +9,7 @@ public class PatternExample2 {
             {
                 if(i==0 || j==0 || i==r || j==c)
                 {
-                    System.out.print("*");
+                     System.out.print("*");
                 }
                 else{
                     System.out.print(" ");
