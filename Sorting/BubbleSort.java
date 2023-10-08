@@ -36,7 +36,7 @@ public class BubbleSort {
                 }
             }
         }
-        Display(arr,s);
+        Display(arr, s);
     }
     
 }
