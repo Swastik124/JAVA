@@ -5,8 +5,8 @@ public class ArrayUsingFunctions {
     {
         for(int i=0;i<s;i++)
         {
-            Scanner sc=new Scanner(System.in);
-            a[i]=sc.nextInt();
+             Scanner sc=new Scanner(System.in);
+             a[i]=sc.nextInt();
         }
     }
     public static void Display(int a[],int s)
