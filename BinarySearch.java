@@ -11,7 +11,7 @@ public class BinarySearch {
             int mid=start+end/2;
             if(num[mid]==key)
             {
-                return mid;
+                 return mid;
             }
             if(num[mid]<key)
             {
