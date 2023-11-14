@@ -10,8 +10,8 @@ public class ArrayInsertion {
         int[] a=new int[s];
         for(int i=0;i<s;i++)
         {
-            Scanner sc=new Scanner(System.in);
-            a[i]=sc.nextInt();
+             Scanner sc=new Scanner(System.in);
+             a[i]=sc.nextInt();
         }
         for(int i=0;i<s;i++)
         {
