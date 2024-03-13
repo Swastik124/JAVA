@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class ArrayPairs {
 
     public static void input(int a[],int s)
