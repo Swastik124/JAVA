@@ -13,5 +13,4 @@ class TransactionDemoAlt {
         };
         obj.deposit(2000);
     }
-    
 }
