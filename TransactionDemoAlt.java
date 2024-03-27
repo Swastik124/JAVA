@@ -11,6 +11,7 @@ class TransactionDemoAlt {
                 System.out.println("The deposited amount is= "+amount);
             }
         };
+        
         obj.deposit(2000);
     }
 }
