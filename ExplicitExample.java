@@ -1,5 +1,4 @@
 public class ExplicitExample {
-    
     public static void main(String[] args)
     {
         byte y;
