@@ -4,6 +4,7 @@ public class ArrayInsertion {
 
     public static void main(String[] args)
     {
+        
         System.out.println("Enter the size of Array= ");
         Scanner si=new Scanner(System.in);
         int s= si.nextInt();
