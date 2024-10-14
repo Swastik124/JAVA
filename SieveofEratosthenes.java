@@ -9,8 +9,7 @@ class GFG
         int t = sc.nextInt();
         while(t-- > 0)
         {
-            int N=sc.nextInt();
-			
+            int N=sc.nextInt();	
             Solution ob = new Solution();
             ArrayList<Integer> primes  = ob.sieveOfEratosthenes(N);
             for(int prime : primes) {
