@@ -13,6 +13,7 @@ class Student {
             System.out.println(cname);
         }
 }
+
 class StaticExample1
 {
     public static void main(String[] args)
