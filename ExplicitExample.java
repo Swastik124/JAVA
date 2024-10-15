@@ -5,5 +5,7 @@ public class ExplicitExample {
         int x=130;
         y=(byte)x;   //Explicit Example
         System.out.println("y="+y);
+
+        
     }
 }
