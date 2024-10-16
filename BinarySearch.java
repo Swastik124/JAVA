@@ -8,6 +8,7 @@ public class BinarySearch {
         
         while(key<=end)
         {
+            
             int mid=start+end/2;
             if(num[mid]==key)
             {
@@ -20,6 +21,7 @@ public class BinarySearch {
             else{
                 end=mid-1;
             }
+            
         }
         return -1;
     }
