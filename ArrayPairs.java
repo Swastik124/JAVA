@@ -8,6 +8,7 @@ public class ArrayPairs {
         {
             a[i]= p.nextInt();
         }
+        
     }
     public static void display(int a[],int s)
     {
