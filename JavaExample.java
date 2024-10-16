@@ -6,7 +6,6 @@ class JavaExample {
         
         num=97;
         str="Static Keyword in Java";
-    
     }
     public static void main (String[] args)
     {
