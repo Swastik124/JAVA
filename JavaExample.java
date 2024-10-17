@@ -9,7 +9,6 @@ class JavaExample {
     }
     public static void main (String[] args)
     {
-        
         System.out.println("value of num= "+num);
         System.out.println("value of str= "+str);
     
