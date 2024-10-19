@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class BubbleSort {
-    
     public static void Display(int arr[],int s){
         System.out.println("Displaying the Elements= ");
         for(int j=0;j<s;j++)
@@ -10,7 +9,6 @@ public class BubbleSort {
         }
         System.out.println();
     }
-
     public static void main(String[] args) {
         int count=0,small,large;
         System.out.println("Enter The size of Array= ");
