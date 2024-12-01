@@ -1,7 +1,6 @@
 package Tree.Easy;
 
 public class diameterOfTree {
-
     static class Node {
         int data;
         Node left, right;
